@@ -9394,4 +9394,39 @@ body {
   font-weight: 300;
 }
 
+header .navbar-brand img {
+  width: 100%;
+}
+header .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #1E1E1E;
+}
+header .navbar-toggler span:last-of-type {
+  margin-bottom: 0;
+}
+header .navbar-nav a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+  padding: 10px;
+  text-align: center;
+}
+header .navbar-light .navbar-brand {
+  max-width: 50%;
+}
+
+@media (min-width: 768px) {
+  header .navbar-nav li {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  header .navbar-nav li {
+    margin-left: 73px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
