@@ -1,0 +1,31 @@
+$social-text:#ECD9D9;
+
+
+ footer{   
+    padding: 49px 0 25px;
+    
+    .social{
+        a{
+            color: $social-text;
+            font-size: 3.1rem;
+            transition: 1s linear;
+            margin: 0 5px;
+            
+            &:hover{
+                transform: rotate(360deg);
+                color: $social-text;
+            }
+        }
+    }//social end
+    
+    .copyright{
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        color: $gray-900;
+        letter-spacing: -0.17px;
+        font-weight: $font-weight-medium;
+        a{
+            color: $gray-900;
+        }
+    }
+}

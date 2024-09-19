@@ -1,0 +1,75 @@
+.section-two{
+    margin-bottom: 20px;
+    .div-one{
+        position: relative;
+        min-height: 549px;
+    }
+    .info{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        right: 10%;
+    }
+    .section-two-title{
+        margin-bottom: 49px;
+        font-family: $bodoni;
+        font-size: 3rem;
+        line-height: 4.5rem;
+        left: 5px;
+        font-weight:$font-weight-light; 
+    }
+    .section-two-date{
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        color: #1E1E1E;
+        letter-spacing: 1px;
+        padding:22px 0 17px;
+        font-style: italic;
+        font-family: $bodoni;
+        
+        
+    }
+    .section-two-description{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        letter-spacing: 0;
+        text-align: center;
+        font-family: $lato;
+        color: $gray-900;
+    }
+}
+.section-two .div-one {
+  position: relative;
+  min-height: 306px;
+}
+@media (min-width: 768px) {
+  .mb-md-0{
+    margin-bottom: 0 !important;
+  }
+ }
+ 
+ @media(min-width:576px){
+     .section-two .info {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  right: 10%;
+}
+ }
+ 
+ @media (min-width: 768px) {
+  .section-two .info {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    right: 10%;
+  }
+}
+@media (min-width: 992px) {
+  .section-two .info {
+    position: absolute;
+    top: 54%;
+    left: 10%;
+    right: 10%;
+  }
+}

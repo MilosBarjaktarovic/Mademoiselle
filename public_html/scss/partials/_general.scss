@@ -13,4 +13,19 @@ body{
     font-weight: $font-weight-light;
 }
 
+main{
+    padding-top: 50px;
+}
+@media(min-width:576px){
+    main{
+        padding-top: 57px;
+    }
+    
+}
+@media(min-width:992px){
+    main{
+        padding-top: 77px;
+    }
+    
+}
 
