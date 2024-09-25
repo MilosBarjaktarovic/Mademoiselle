@@ -9543,7 +9543,7 @@ header .navbar-light .navbar-brand {
   }
 }
 .service-section {
-  margin-bottom: 11.1rem;
+  margin-bottom: 5.7rem;
 }
 .service-section .image-container {
   padding: 0;
@@ -9625,6 +9625,17 @@ footer .copyright {
 }
 footer .copyright a {
   color: #1E1E1E;
+}
+
+.lead-page-section .section-services {
+  font-family: "Bodoni";
+  font-size: 6rem;
+  letter-spacing: 20px;
+  line-height: 8.4rem;
+}
+
+footer {
+  padding: 0;
 }
 
 /*# sourceMappingURL=theme.css.map */
