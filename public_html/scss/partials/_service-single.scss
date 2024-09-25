@@ -1,0 +1,30 @@
+
+.service-single-section{
+    padding: 50px 0;
+
+    .service-single-description{
+        font-size: 4.4rem;
+        line-height: 5rem;
+        text-align: left;
+    }
+
+}
+
+
+
+@media(min-width:768px){
+    .service-single-section{
+        padding: 70px 0;
+        align-items: center;
+    }
+}
+
+@media(min-width:992px){
+    .service-single-section{
+        padding: 170px 0;
+        align-items: center;
+    }
+    .single-footer{
+        padding-top: 135px;
+    }
+}

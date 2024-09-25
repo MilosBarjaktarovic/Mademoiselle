@@ -9446,7 +9446,7 @@ header .navbar-light .navbar-brand {
   .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0, 0.1);
-    margin-right: 52px;
+    margin-right: 0px;
   }
 }
 @media (min-width: 576px) {
@@ -9636,6 +9636,31 @@ footer .copyright a {
 
 footer {
   padding: 0;
+}
+
+.service-single-section {
+  padding: 50px 0;
+}
+.service-single-section .service-single-description {
+  font-size: 4.4rem;
+  line-height: 5rem;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .service-single-section {
+    padding: 70px 0;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .service-single-section {
+    padding: 170px 0;
+    align-items: center;
+  }
+  .single-footer {
+    padding-top: 135px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
