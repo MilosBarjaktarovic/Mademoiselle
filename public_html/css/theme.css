@@ -9771,5 +9771,23 @@ footer {
     padding: 78px;
   }
 }
+.section-error {
+  background-size: cover;
+  background-position: center center;
+  padding: 150px 0;
+}
+.section-error .section-error-title {
+  font-size: 6rem;
+  line-height: 8.4rem;
+  letter-spacing: 20px;
+  text-align: center;
+  font-family: "Bodoni";
+}
+.section-error .button-error {
+  border: 1px solid white;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+}
 
 /*# sourceMappingURL=theme.css.map */
