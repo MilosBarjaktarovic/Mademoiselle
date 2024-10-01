@@ -1,0 +1,25 @@
+
+.about{
+
+    .about-title{
+        font-size: 4.4rem;
+        line-height: 5rem;
+    }
+    .about-description{
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+}
+
+@media(min-width:320px){
+    .about-footer{
+        padding: 50px;
+    }
+}
+
+@media(min-width:768px){
+    .about-footer{
+        padding: 78px;
+    }
+}
